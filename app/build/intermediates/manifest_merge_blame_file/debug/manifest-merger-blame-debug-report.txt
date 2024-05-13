@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.builds.javavcr"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:5:5-64
+11-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:6:5-71
+12-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.STORAGE" />
+15-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:9:5-66
+15-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:9:22-63
+16
+17    <application
+17-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:11:5-26:19
+18        android:allowBackup="true"
+18-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+19-->[com.android.support:support-compat:28.0.0] C:\Users\Amina\.gradle\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+20        android:debuggable="true"
+21        android:icon="@drawable/rec"
+21-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:13:9-37
+22        android:label="Java VCR"
+22-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:14:9-33
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:17:9-40
+27        <activity
+27-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:19:9-25:20
+28            android:name="com.example.builds.javavcr.MainActivity"
+28-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:19:19-47
+29            android:screenOrientation="portrait" >
+29-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:20:13-51
+30            <intent-filter>
+30-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:21:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:23:17-77
+33-->C:\AndroidProjects\Java\MediaPlayers\JavaVCR\app\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

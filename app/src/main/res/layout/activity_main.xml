@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/record"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+
+        android:text="Record" />
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/record"
+        android:text="Stop Recording" />
+    <Button
+        android:id="@+id/play"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/record"
+
+        android:text="Play Video" />
+    <Button
+        android:id="@+id/stopPlayback"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/play"
+        android:layout_alignBottom="@+id/play"
+        android:layout_toEndOf="@+id/record"
+        android:text="Stop Playback" />
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/play"
+        android:layout_gravity="center" />
+    </RelativeLayout>
+</LinearLayout>
